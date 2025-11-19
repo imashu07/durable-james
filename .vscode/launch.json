@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Attach to Azure Functions",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "func: host start",
+      "program": "func",
+      "args": [
+        "host",
+        "start"
+      ],
+      "cwd": "${workspaceFolder}",
+      "problemMatcher": "$func-watch",
+      "env": {}
+    }
+  ]
+}

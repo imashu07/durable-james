@@ -1,0 +1,14 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "func: host start",
+      "type": "shell",
+      "command": "func host start",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": "$func-watch"
+    }
+  ]
+}
